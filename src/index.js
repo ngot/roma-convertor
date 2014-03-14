@@ -10,7 +10,7 @@
 	}else{
 		this[name] = definition();
 	}
-})('roma_number', function () {
+})('roma-convertor', function () {
 
 	function parse(num) {
 		if (!num)
@@ -23,7 +23,7 @@
 			i = 3;
 		while (i--)
 			roman = (key[+digits.pop() + (i * 10)] || "") + roman;
-		return Array(+digits.join("") + 1).join("M") + roman;
+		return new Array(+digits.join("") + 1).join("M") + roman;
 	}
 
 	function deParse(s) {

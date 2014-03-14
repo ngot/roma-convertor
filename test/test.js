@@ -1,7 +1,7 @@
 var roma = require("../src");
 var assert = require("assert");
 
-describe("roma_number", function(){
+describe("roma-convertor", function(){
 
 	describe("one", function(){	
 
