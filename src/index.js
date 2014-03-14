@@ -7,7 +7,7 @@
 	} else if (hasExports) {
 		// Node.js Module
 		module.exports = definition();
-	}else{
+	} else {
 		this[name] = definition();
 	}
 })('roma-convertor', function () {

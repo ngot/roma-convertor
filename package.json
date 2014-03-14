@@ -1,28 +1,28 @@
 {
-  "name": "roma-convertor",
-  "version": "0.0.1",
-  "description": "roma number convert tool",
-  "main": "lib/index.js",
-  "scripts": {
-    "test": "make run-test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ngot/roma-convertor.git"
-  },
-  "keywords": [
-    "roma",
-    "js",
-    "number",
-    "convert"
-  ],
-  "author": "ngot",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ngot/roma-convertor/issues"
-  },
-  "homepage": "https://github.com/ngot/roma-convertor",
-  "devDependencies": {
-    "mocha": "~1.17.1"
-  }
+	"name": "roma-convertor",
+	"version": "0.0.1",
+	"description": "roma number convert tool",
+	"main": "lib/index.js",
+	"scripts": {
+		"test": "make run-test"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ngot/roma-convertor.git"
+	},
+	"keywords": [
+		"roma",
+		"js",
+		"number",
+		"convert"
+	],
+	"author": "ngot",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ngot/roma-convertor/issues"
+	},
+	"homepage": "https://github.com/ngot/roma-convertor",
+	"devDependencies": {
+		"mocha": "~1.17.1"
+	}
 }
