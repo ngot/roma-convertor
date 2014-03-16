@@ -14,7 +14,7 @@
 
 	function parse(num) {
 		if (!num)
-			return false;
+			new Error("Missing Param");
 		var digits = String(+num).split(""),
 			key = ["", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM",
 				"", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC",
@@ -27,6 +27,8 @@
 	}
 
 	function deParse(s) {
+		if (!s)
+			new Error("Missing Param");
 		s = String(s).toUpperCase();
 		if (s.length > 15 || /[^MDCLXVI]/.test(s)) return NaN;
 		var L = s.length, sum = 0, i = 0, next, val,
