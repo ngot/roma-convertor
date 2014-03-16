@@ -1,6 +1,6 @@
 {
 	"name": "roma-convertor",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "roma number convert tool",
 	"main": "lib/index.js",
 	"scripts": {
