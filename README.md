@@ -13,7 +13,7 @@ Install with [npm](http://npmjs.org):
 
 ###Usage
 ```js
-  var rome = require('roma-convertor');
+  var roma = require('roma-convertor');
   var m = roma.parse(1);
   var n = roma.depParse("V");
 ```
